@@ -6,6 +6,7 @@
 <h1 id="fundamentos-de-php-y-mysql">Fundamentos de PHP y MySQL</h1>
 <p>Manual de Fundamentos de PHP y MySQL</p>
 <p>La intención de este manual es proporcionar las bases necesarias para comprender el funcionamiento de los desarrollos realizados en PHP y MySQL.</p>
+<p><strong>Este manual se encuentra en desarrollo, por lo que se irán mejorando y extendiendo los contenidos presentes.</strong></p>
 <h2 id="temario">Temario</h2>
 <ol>
 <li><a href="https://github.com/AiusDa/fundamentos-de-php-y-mysql/blob/master/Introducci%C3%B3n.md">Introducción</a></li>

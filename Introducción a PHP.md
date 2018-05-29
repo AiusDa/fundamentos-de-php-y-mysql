@@ -505,6 +505,7 @@ endforeach;
 <h2 id="funciones"><a href="http://php.net/manual/es/functions.user-defined.php">Funciones</a></h2>
 <p>Las funciones son como fábricas donde insertas ninguno, uno o varios valores y esta puede retornar uno o ningún valor.</p>
 <p>Las funciones son muy útiles para simplificar la lectura del código y para hacer código reutilizable.</p>
+<h3 id="sintaxis">Sintaxis</h3>
 <p>Su sintaxis es de la siguiente forma:</p>
 <pre><code>// Declaración de una función
 // Los argumentos pueden ser de cualquier tipo
@@ -515,5 +516,20 @@ function foo($arg_1, $arg_2, /* ..., */ $arg_n) {
 }
 // Ejecución de la función
 foo();
+</code></pre>
+<h3 id="argumentos-con-valores-por-defecto">Argumentos con valores por defecto</h3>
+<p>Una buena práctica para evitar errores es el de asignar valores predefinidos a a los argumentos, esto se logra asignando con el operador “=” el valor que va a adoptar el argumento en caso de no recibir uno cuando se llame a la función:</p>
+<pre><code>function funcionConValorPredefinido($arg = 1) {
+	echo $arg;
+}
+funcionConValorPredefinido(); // Muestra "1"
+funcionConValorPredefinido(5); // Muestra "5"
+</code></pre>
+<h3 id="declaraciones-de-tipo">Declaraciones de tipo</h3>
+<p>En versiones más recientes es posible asignar <strong>tipos</strong> a los argumentos y al valor de retorno:</p>
+<pre><code>function funcionConTipos(array $arg) {
+	echo count($arg);
+}
+funcionConTipos([1, 2, 3]); // Muestra "3"
 </code></pre>
 

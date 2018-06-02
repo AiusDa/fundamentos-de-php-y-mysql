@@ -89,4 +89,22 @@ fwritte($file, $text, 300);<br>
 fclose($file);</p>
 </li>
 </ol>
+<h2 id="operaciones-de-tratamiento-de-archivos">Operaciones de tratamiento de archivos</h2>
+<h3 id="rewind"><a href="http://php.net/manual/es/function.rewind.php">rewind</a></h3>
+<p>Vuelve la posición del puntero al inicio del archivo, recibe como único parámetro un puntero.</p>
+<pre><code>$file = fopen('salida.txt', 'r+');
+fwrite($file, 'Texto a escribir');
+rewind($file);
+fwrite($file, 'Cadena');
+rewind($file);
+echo fread($file, filesize('salida.txt')); // Muestra el texto "Cadenaa escribir"
+fclose($file);
+</code></pre>
+<h3 id="feof">feof</h3>
+<p>Comprueba si un puntero está al final de un archivo, recibe como parámetro un puntero y retorna un booleano:</p>
+<pre><code>$file = fopen('mi-archivo.txt', 'a');
+if(!feof($file)) {
+	// sentencias
+}
+</code></pre>
 

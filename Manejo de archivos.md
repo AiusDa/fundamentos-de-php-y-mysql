@@ -107,4 +107,24 @@ if(!feof($file)) {
 	// sentencias
 }
 </code></pre>
+<h3 id="fgets">fgets</h3>
+<p>Obtiene una linea desde el puntero de un archivo:</p>
+<pre><code>$gestor = @fopen("/tmp/inputfile.txt", "r");  
+if ($gestor) {  
+	while (($búfer = fgets($gestor, 4096)) !== false) {  
+		echo $búfer;  
+	}
+	if (!feof($gestor)) {  
+		echo "Error: fallo inesperado de fgets()\n";  
+	}
+	fclose($gestor);  
+}
+</code></pre>
+<h3 id="fread">fread</h3>
+<p>Lectura de un archivo en modo binario de forma segura.</p>
+<pre><code>$nombre_fichero = "/usr/local/algo.txt";  
+$gestor = fopen($nombre_fichero, "r");  
+$contenido = fread($gestor, filesize($nombre_fichero));  
+fclose($gestor);
+</code></pre>
 

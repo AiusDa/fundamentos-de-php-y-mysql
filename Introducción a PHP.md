@@ -410,7 +410,11 @@ echo $arrayMultidimensional[1][3]; // Muestra el valor 8
 <td><a href="http://php.net/manual/es/language.operators.logical.php">lógico</a></td>
 </tr>
 </tbody>
-</table><h2 id="estructuras-de-control"><a href="http://php.net/manual/es/language.control-structures.php">Estructuras de control</a></h2>
+</table><h4 id="operador-de-control-de-errores"><a href="http://php.net/manual/es/language.operators.errorcontrol.php">Operador de control de errores</a></h4>
+<p>Se denota @ y se usa para escapar ignorar mensajes de error.</p>
+<pre><code>$value = @$cache[$key]; // no producirá una anotación si el índice $key no existe.
+</code></pre>
+<h2 id="estructuras-de-control"><a href="http://php.net/manual/es/language.control-structures.php">Estructuras de control</a></h2>
 <p>Son estructuras que permiten modificar el flujo de ejecución de las instrucciones un programa.</p>
 <h3 id="if"><a href="http://php.net/manual/es/control-structures.if.php">if</a></h3>
 <p>Permite validar si una expresión es verdadera, en caso de ser así ejecuta las sentencias dentro de las llaves, en caso de que no se cumpla la la condición el programa seguirá su flujo normal.</p>
@@ -540,5 +544,38 @@ funcionConValorPredefinido(5); // Muestra "5"
 	return 'Mi cadena';
 }
 funcionConTipos([1, 2, 3]); // Muestra "3"
+</code></pre>
+<h3 id="declaraciones-de-tipo-de-argumentos-variables">Declaraciones de tipo de argumentos variables</h3>
+<p>Cuando se declara un tipo para los argumentos variables tiene un comportamiento bastante especial:</p>
+<pre><code>function funcWithVariableTypedVars(string ...$array)  
+{  
+	echo json_encode($array);
+}
+funcWithVariableTypedVars(1, "10", "2.2", false); // Muestra ["1", "10", "2.2", ""]
+</code></pre>
+<p>Como se puede ver en el ejemplo al pasarse todos los argumentos a un array, estos se intentan convertir a cadena. Así se puede ir experimentando con los diferentes tipos primitivos.</p>
+<h3 id="funciones-recursivas"><a href="http://php.net/manual/en/functions.user-defined.php#example-135">Funciones recursivas</a></h3>
+<p>Funciones recursivas se les llama a las funciones que se llaman a sí mismas, estas funciones son útiles cuando se requiere que una misma acción se repita hasta que se cumpla cierta condición;</p>
+<pre><code>function factorial(int $n): int  
+{  
+	if($n == 1) :
+	    return 1;  
+	else :
+		return $n * factorial($n - 1);
+	endif;
+}
+$result = factorial(3);  
+echo $result; // Muestra 6
+</code></pre>
+<h3 id="callbacks"><a href="http://php.net/manual/es/language.types.callable.php">Callbacks</a></h3>
+<p>Los callbacks son funciones que se pasan como argumento de otras funciones y normalmente se utilizan para ejecutar una acción una vez que haya terminado la ejecución de las sentencias de la función que la ha llamado.</p>
+<pre><code>function myFunctionWithCallback($data, callable $callback)
+{
+    // sentencias 
+    call_user_func($callback, $data);
+}
+myFunctionWithCallback(1, function($data) {
+    var_dump($data);
+});
 </code></pre>
 

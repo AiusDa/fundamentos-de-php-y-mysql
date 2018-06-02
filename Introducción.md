@@ -22,25 +22,26 @@
 <p>Generalmente la comunicación entre ambas partes es realizada a través del protocolo <strong>HTTP</strong>.</p>
 <h2 id="preparación-de-ambiente-de-desarrollo">Preparación de ambiente de desarrollo</h2>
 <p>Para este curso vamos a usar un ambiente <strong>LAMP (Linux, Apache, MySQL y PHP)</strong>.</p>
-<h3 id="instalar-ambiente-lamp">Instalar ambiente LAMP</h3>
+<h3 id="instalar-ambiente-lamp"><a href="https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-ubuntu-18-04">Instalar ambiente LAMP</a></h3>
+<h4 id="instalar-paquetes-en-linux">Instalar paquetes en Linux</h4>
 <pre><code>// Update Ubuntu
-sudo apt-get update
+&gt; sudo apt-get update
 // Install Apache Server
-sudo apt-get install apache2 -y
+&gt; sudo apt-get install apache2 -y
 // Install MySQL
-sudo apt-get install mysql-server -y
-sudo mysql_secure_installation
+&gt; sudo apt-get install mysql-server -y
+&gt; sudo mysql_secure_installation
 // Install PHP
-sudo apt-get install php libapache2-mod-php php-mysql -y
+&gt; sudo apt-get install php libapache2-mod-php php-mysql -y
 </code></pre>
-<h3 id="agregar--index.php">Agregar  index.php</h3>
-<pre><code>sudo vimmo /etc/apache2/mods-enabled/dir.conf
+<h4 id="agregar--index.php">Agregar  index.php</h4>
+<pre><code>&gt; sudo vim /etc/apache2/mods-enabled/dir.conf
 
 &lt;IfModule mod_dir.c&gt;
-    DirectoryIndex index.php index.html index.cgi index.pl index.php index.$
+    DirectoryIndex `index.php` index.html index.cgi index.pl index.php index.$
 &lt;/IfModule&gt;
 </code></pre>
-<h3 id="reiniciar-servidor">Reiniciar servidor</h3>
+<h4 id="reiniciar-servidor">Reiniciar servidor</h4>
 <pre><code>sudo service apache2 restart
 </code></pre>
 <h3 id="instalar-phpstorm">Instalar <a href="https://www.jetbrains.com/phpstorm/download/">PhpStorm</a></h3>
@@ -54,4 +55,5 @@ sudo apt-get install php libapache2-mod-php php-mysql -y
 </ul>
 <h3 id="instalar-mysql-workbench">Instalar <a href="https://www.mysql.com/products/workbench/">MySQL Workbench</a></h3>
 <p>Seguir las instrucciones por del instalador.</p>
+<p><strong>Nota:</strong>  A día de hoy MySQL Workbench no cuenta con soporte para Ubuntu 18.04</p>
 

@@ -525,10 +525,19 @@ foo();
 funcionConValorPredefinido(); // Muestra "1"
 funcionConValorPredefinido(5); // Muestra "5"
 </code></pre>
+<h3 id="argumentos-variables">Argumentos variables</h3>
+<p>PHP cuenta con un operador llamado <strong>splat</strong>, este permite habilitar a una función para que reciba una cantidad indefinida de argumentos, su sintaxis es la siguiente:</p>
+<pre><code>function funcionConArgumentosVariables(...$array)
+{
+	// sentencias
+}
+</code></pre>
+<p>Donde $array es un array indexado;</p>
 <h3 id="declaraciones-de-tipo">Declaraciones de tipo</h3>
 <p>En versiones más recientes es posible asignar <strong>tipos</strong> a los argumentos y al valor de retorno:</p>
-<pre><code>function funcionConTipos(array $arg) {
-	echo count($arg);
+<pre><code>function funcionConTipos(array $arg): string {
+	// sentencias
+	return 'Mi cadena';
 }
 funcionConTipos([1, 2, 3]); // Muestra "3"
 </code></pre>

@@ -38,7 +38,7 @@
 <pre><code>&gt; sudo vim /etc/apache2/mods-enabled/dir.conf
 
 &lt;IfModule mod_dir.c&gt;
-    DirectoryIndex `index.php` index.html index.cgi index.pl index.php index.$
+    DirectoryIndex index.php index.html index.cgi index.pl index.php index.$
 &lt;/IfModule&gt;
 </code></pre>
 <h4 id="reiniciar-servidor">Reiniciar servidor</h4>
@@ -56,4 +56,6 @@
 <h3 id="instalar-mysql-workbench">Instalar <a href="https://www.mysql.com/products/workbench/">MySQL Workbench</a></h3>
 <p>Seguir las instrucciones por del instalador.</p>
 <p><strong>Nota:</strong>  A día de hoy MySQL Workbench no cuenta con soporte para Ubuntu 18.04</p>
+<h3 id="instalar-postmanenter-link-description-here">Instalar Postman<a href="https://www.getpostman.com/apps">enter link description here</a></h3>
+<p>Sequir las instrucciones del instalador.</p>
 

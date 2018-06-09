@@ -49,7 +49,9 @@ Al igual que $_GET o $_POST, $_FILES es un array asociativo, sin embargo por def
 
 Quizá este tipo de modelado sea uno de los más famoso, aunque en la actualidad se han extendido muchos más y quizá ofrezcan una mejor arquitectura, la verdad es que este es aún muy utilizado en la mayoría de **Frameworks** de PHP.
 
+Este modelo consiste en separar el código en tres bloques diferentes:
 
+- Modelo: Representación de los dato
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTY0NDk3MSwtMzQ0Nzc0MjQ5XX0=
+eyJoaXN0b3J5IjpbNjY1MTI1ODQ4LC0zNDQ3NzQyNDldfQ==
 -->

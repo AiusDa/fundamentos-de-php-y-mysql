@@ -11,7 +11,7 @@
 <ol>
 <li><a href="https://github.com/AiusDa/fundamentos-de-php-y-mysql/blob/master/Introducci%C3%B3n.md">Introducción</a></li>
 <li><a href="https://github.com/AiusDa/fundamentos-de-php-y-mysql/blob/master/Introducci%C3%B3n%20a%20PHP.md">Introducción al lenguaje PHP</a></li>
-<li>Directivas especializadas en PHP</li>
+<li><a href="https://github.com/AiusDa/fundamentos-de-php-y-mysql/blob/master/Manejo%20de%20archivos.md">Manejo de archivos</a></li>
 <li>Diseño de aplicaciones WEB</li>
 <li>Introducción a MySQL y MySQL Workbench</li>
 <li>Manipulación de datos con MySQL</li>

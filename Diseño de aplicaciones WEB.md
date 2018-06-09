@@ -43,7 +43,7 @@ Al igual que $_GET o $_POST, $_FILES es un array asociativo, sin embargo por def
 - error: error de subida si es que hubo uno
 - size: tamaño en bytes del archivo
 
-## Buenas prácticas de arquitectura
+## 4Buenas prácticas de arquitectura
 
 ### Modelo MVC
 
@@ -61,6 +61,6 @@ Es bueno mantener componentes con funciones específicas, esto con el fin de pod
 
 Uno de los ejemplos más sencillos pero útiles es el de tener un archivo util.php o helper.php que contengan una serie de funciones que se pueden utilizar en cualquier parte del código independientemente de la función que tenga cada módulo. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTgyMzg4OCwtMTk3NDI0NTU1MSwtMT
-M0OTIzODQxOSwtMzQ0Nzc0MjQ5XX0=
+eyJoaXN0b3J5IjpbLTE1MzQ1NjcxODIsLTI5NTgyMzg4OCwtMT
+k3NDI0NTU1MSwtMTM0OTIzODQxOSwtMzQ0Nzc0MjQ5XX0=
 -->

@@ -53,7 +53,9 @@ Este modelo consiste en separar el código en tres bloques diferentes:
 
 - Modelo: Representación de la información con la cual se operará
 - Vista: La interfaz con la que el usuario va a interactuar (UI)
-- Controlador: Contiene la lógica con la que se puede operar los datos previamente
+- Controlador: Contiene la lógica con la que se puede operar los datos previamente a mostrarse en la vista
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzUwNTA5NCwtMzQ0Nzc0MjQ5XX0=
+eyJoaXN0b3J5IjpbLTEzNDkyMzg0MTksLTM0NDc3NDI0OV19
 -->

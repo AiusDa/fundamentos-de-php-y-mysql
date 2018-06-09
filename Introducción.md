@@ -58,4 +58,8 @@
 <p><strong>Nota:</strong>  A día de hoy MySQL Workbench no cuenta con soporte para Ubuntu 18.04</p>
 <h3 id="instalar-postmanenter-link-description-here">Instalar Postman<a href="https://www.getpostman.com/apps">enter link description here</a></h3>
 <p>Sequir las instrucciones del instalador.</p>
+<h2 id="lecturas-recomendadas">Lecturas recomendadas</h2>
+<ul>
+<li><a href="http://www.php.net/">Documentación oficial de PHP</a></li>
+</ul>
 

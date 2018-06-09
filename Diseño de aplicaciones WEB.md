@@ -47,7 +47,9 @@ Al igual que $_GET o $_POST, $_FILES es un array asociativo, sin embargo por def
 
 ### Modelo MVC
 
-Quizá este tipo de modelado sea uno de los más famoso, aunque en la actualidad se han extendido muchos más y quizá ofrezcan una mejo
+Quizá este tipo de modelado sea uno de los más famoso, aunque en la actualidad se han extendido muchos más y quizá ofrezcan una mejor arquitectura, la verdad es que este es aún muy utilizado en la mayoría de **Frameworks** de PHP.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTc5NzYwOCwtMzQ0Nzc0MjQ5XX0=
+eyJoaXN0b3J5IjpbLTY1NTY0NDk3MSwtMzQ0Nzc0MjQ5XX0=
 -->

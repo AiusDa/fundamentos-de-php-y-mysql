@@ -43,9 +43,9 @@ Al igual que $_GET o $_POST, $_FILES es un array asociativo, sin embargo por def
 - error: error de subida si es que hubo uno
 - size: tamaño en bytes del archivo
 
-## 4Buenas prácticas de arquitectura
+## 4.2 Buenas prácticas de arquitectura
 
-### Modelo MVC
+### 4.2.1 Modelo MVC
 
 Quizá este tipo de modelado sea uno de los más famoso, aunque en la actualidad se han extendido muchos más y quizá ofrezcan una mejor arquitectura, la verdad es que este es aún muy utilizado en la mayoría de **Frameworks** de PHP.
 
@@ -55,12 +55,12 @@ Este modelo consiste en separar el código en tres bloques diferentes:
 - Vista: La interfaz con la que el usuario va a interactuar (UI)
 - Controlador: Contiene la lógica con la que se puede operar los datos previamente a mostrarse en la vista
 
-### Modularización
+### 4.2.2 Modularización
 
 Es bueno mantener componentes con funciones específicas, esto con el fin de poder reutilizarlos o modificarlos de forma más sencilla.
 
 Uno de los ejemplos más sencillos pero útiles es el de tener un archivo util.php o helper.php que contengan una serie de funciones que se pueden utilizar en cualquier parte del código independientemente de la función que tenga cada módulo. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ1NjcxODIsLTI5NTgyMzg4OCwtMT
-k3NDI0NTU1MSwtMTM0OTIzODQxOSwtMzQ0Nzc0MjQ5XX0=
+eyJoaXN0b3J5IjpbNzU3MjM0Njg5LC0yOTU4MjM4ODgsLTE5Nz
+QyNDU1NTEsLTEzNDkyMzg0MTksLTM0NDc3NDI0OV19
 -->

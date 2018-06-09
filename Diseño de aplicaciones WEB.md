@@ -43,7 +43,11 @@ Al igual que $_GET o $_POST, $_FILES es un array asociativo, sin embargo por def
 - error: error de subida si es que hubo uno
 - size: tamaño en bytes del archivo
 
-## Buenas prácticas de 
+## Buenas prácticas de arquitectura
+
+### Modelo MVC
+
+Quizá este tipo de modelado sea uno de los más famoso, aunque en la actualidad se han extendido muchos más y quizá ofrezcan una mejo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyMDk0MTM2LC0zNDQ3NzQyNDldfQ==
+eyJoaXN0b3J5IjpbMTc2OTc5NzYwOCwtMzQ0Nzc0MjQ5XX0=
 -->

@@ -59,8 +59,8 @@ Este modelo consiste en separar el código en tres bloques diferentes:
 
 Es bueno mantener componentes con funciones específicas, esto con el fin de poder reutilizarlos o modificarlos de forma más sencilla.
 
-Uno de los ejemplos más sencillo
+Uno de los ejemplos más sencillos pero útiles es el de tener un archivo util.php o helper.php que contengan una serie de funciones que se pueden utilizar en cualquier parte del código independientemente de la función que tenga cada módulo. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDA1MjExMSwtMTk3NDI0NTU1MSwtMT
+eyJoaXN0b3J5IjpbLTI5NTgyMzg4OCwtMTk3NDI0NTU1MSwtMT
 M0OTIzODQxOSwtMzQ0Nzc0MjQ5XX0=
 -->

@@ -51,7 +51,9 @@ Quizá este tipo de modelado sea uno de los más famoso, aunque en la actualidad
 
 Este modelo consiste en separar el código en tres bloques diferentes:
 
-- Modelo: Representación de los dato
+- Modelo: Representación de la información con la cual se operará
+- Vista: La interfaz con la que el usuario va a interactuar (UI)
+- Controlador: Contiene la lógica con la que se puede operar los datos previamente
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY1MTI1ODQ4LC0zNDQ3NzQyNDldfQ==
+eyJoaXN0b3J5IjpbLTUxMzUwNTA5NCwtMzQ0Nzc0MjQ5XX0=
 -->

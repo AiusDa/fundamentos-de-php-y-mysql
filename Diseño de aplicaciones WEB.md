@@ -58,7 +58,9 @@ Este modelo consiste en separar el código en tres bloques diferentes:
 ### Modularización
 
 Es bueno mantener componentes con funciones específicas, esto con el fin de poder reutilizarlos o modificarlos de forma más sencilla.
+
+Uno de los ejemplos más sencillo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzQyNDU1NTEsLTEzNDkyMzg0MTksLT
-M0NDc3NDI0OV19
+eyJoaXN0b3J5IjpbLTYzMDA1MjExMSwtMTk3NDI0NTU1MSwtMT
+M0OTIzODQxOSwtMzQ0Nzc0MjQ5XX0=
 -->

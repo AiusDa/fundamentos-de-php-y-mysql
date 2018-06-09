@@ -42,6 +42,8 @@ Al igual que $_GET o $_POST, $_FILES es un array asociativo, sin embargo por def
 - tmp_name: nombre temporal asignado por el sistema
 - error: error de subida si es que hubo uno
 - size: tamaño en bytes del archivo
+
+## Buenas prácticas de 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDc3NDI0OV19
+eyJoaXN0b3J5IjpbOTgyMDk0MTM2LC0zNDQ3NzQyNDldfQ==
 -->

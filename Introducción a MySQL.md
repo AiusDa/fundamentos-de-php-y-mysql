@@ -147,9 +147,9 @@ NOTA: Es importante agregarle siempre un WHERE a DELETE para que sólo se elimin
 | INTEGER(n) | Almacena números enteros con o sin signo. Con n puede establecer la longitud del número que se mostrará. | Números desde -2147483648 hasta +2147483647 |
 | TEXT | Almacena cadenas de caracteres de longitud variable de hasta 65.353 caracteres de longitud. | Caracteres cualesquiera |
 | TIMESTAMP | Genera un sello de tiempo y lo almacena. Éste contiene la hora y fecha actuales. Un campo de este tipo resulta muy útil para recoger el momento de almacenamiento de los datos |  |
-| VARCHAR(n) | Permite almacenar cadenas de caracteres de longitud variable. Dentro de ella, n indica la cantidad máxima de caracteres almacenables más 1.  |  |
-| YEAR |  |  |
+| VARCHAR(n) | Permite almacenar cadenas de caracteres de longitud variable. Dentro de ella, n indica la cantidad máxima de caracteres almacenables más 1. Las cadenas de caracteres más cortas como n-1, al igual que en el caso del tipo de dato CHAR no se llena con caracteres en blanco. | Caracteres cualesquiera. |
+| YEAR | Permite almacenar el año con hasta cinco cifras | Las cifras de año van de 1901 a 2 |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4MzM3MzQsNjQwNjc0ODc4XX0=
+eyJoaXN0b3J5IjpbMzAzMzEzNTA0LDY0MDY3NDg3OF19
 -->

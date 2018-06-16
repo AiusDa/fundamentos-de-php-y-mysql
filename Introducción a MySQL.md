@@ -148,8 +148,11 @@ NOTA: Es importante agregarle siempre un WHERE a DELETE para que sólo se elimin
 | TEXT | Almacena cadenas de caracteres de longitud variable de hasta 65.353 caracteres de longitud. | Caracteres cualesquiera |
 | TIMESTAMP | Genera un sello de tiempo y lo almacena. Éste contiene la hora y fecha actuales. Un campo de este tipo resulta muy útil para recoger el momento de almacenamiento de los datos |  |
 | VARCHAR(n) | Permite almacenar cadenas de caracteres de longitud variable. Dentro de ella, n indica la cantidad máxima de caracteres almacenables más 1. Las cadenas de caracteres más cortas como n-1, al igual que en el caso del tipo de dato CHAR no se llena con caracteres en blanco. | Caracteres cualesquiera. |
-| YEAR | Permite almacenar el año con hasta cinco cifras | Las cifras de año van de 1901 a 2 |
+| YEAR | Permite almacenar el año con hasta cinco cifras | Las cifras de año van de 1901 a 2155 |
+
+## Creación de tablas
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzMzEzNTA0LDY0MDY3NDg3OF19
+eyJoaXN0b3J5IjpbLTM1OTk2NjkwNSw2NDA2NzQ4NzhdfQ==
 -->

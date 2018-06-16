@@ -138,10 +138,18 @@ NOTA: Es importante agregarle siempre un WHERE a DELETE para que sólo se elimin
 
 ## Tipos de de campos
 
-| Tipo de dato | Descripci´ |  |
+| Tipo de dato | Descripción | Valores que toma |
 |--|--|--|
+| CHAR(n) |  |  |
+| DATE |  |  |
+| DECIMAL(m,n) |  |  |
+| FLOAT(m,n) |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 |  |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjk5NTM3Nyw2NDA2NzQ4NzhdfQ==
+eyJoaXN0b3J5IjpbLTk2NzUwNjk2NCw2NDA2NzQ4NzhdfQ==
 -->

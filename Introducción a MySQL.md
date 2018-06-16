@@ -136,7 +136,12 @@ Elimina los registros de una tabla.
 
 NOTA: Es importante agregarle siempre un WHERE a DELETE para que sólo se eliminen los registros bajo una condición dada.
 
+## Tipos de de campos
+
+| Tipo de dato | Descripci´ |  |
+|--|--|--|
+|  |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQwNjc0ODc4XX0=
+eyJoaXN0b3J5IjpbMTQwMjk5NTM3Nyw2NDA2NzQ4NzhdfQ==
 -->

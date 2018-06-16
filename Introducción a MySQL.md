@@ -140,16 +140,16 @@ NOTA: Es importante agregarle siempre un WHERE a DELETE para que sólo se elimin
 
 | Tipo de dato | Descripción | Valores que toma |
 |--|--|--|
-| CHAR(n) |  |  |
+| CHAR(n) | Almacena |  |
 | DATE |  |  |
 | DECIMAL(m,n) |  |  |
 | FLOAT(m,n) |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| INTEGER(n) |  |  |
+| TEXT |  |  |
+| TIMESTAMP |  |  |
+| VARCHAR(n) |  |  |
+| YEAR |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NzUwNjk2NCw2NDA2NzQ4NzhdfQ==
+eyJoaXN0b3J5IjpbLTEwNzMzNTUxOTEsNjQwNjc0ODc4XX0=
 -->

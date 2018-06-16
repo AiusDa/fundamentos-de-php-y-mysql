@@ -141,8 +141,8 @@ NOTA: Es importante agregarle siempre un WHERE a DELETE para que sólo se elimin
 | Tipo de dato | Descripción | Valores que toma |
 |--|--|--|
 | CHAR(n) | Almacena cadenas de caracteres con una longitud máxima fija de 255 caracteres. Dentro de ella, n indica la longitud del campo, esto es, la cantidad de caracteres almacenables más 1. La cifra n siempre debe ser 1 más que la cantidad de caracteres que se van a almacenar. | Caracteres cualesquiera. |
-| DATE | Almacena indicaciones de fecha. | Valores de fecha desde 01.01.1000 hasta 31.12. |
-| DECIMAL(m,n) |  |  |
+| DATE | Almacena indicaciones de fecha. | Valores de fecha desde 01.01.1000 hasta 31.12.9999 inclusive |
+| DECIMAL(m,n) | Almacena número decimales con o sin sino |  |
 | FLOAT(m,n) |  |  |
 | INTEGER(n) |  |  |
 | TEXT |  |  |
@@ -151,5 +151,5 @@ NOTA: Es importante agregarle siempre un WHERE a DELETE para que sólo se elimin
 | YEAR |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDQ5OTU4Miw2NDA2NzQ4NzhdfQ==
+eyJoaXN0b3J5IjpbMTQ2NjIxODk2LDY0MDY3NDg3OF19
 -->

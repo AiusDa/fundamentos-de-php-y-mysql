@@ -144,12 +144,12 @@ NOTA: Es importante agregarle siempre un WHERE a DELETE para que sólo se elimin
 | DATE | Almacena indicaciones de fecha. | Valores de fecha desde 01.01.1000 hasta 31.12.9999 inclusive |
 | DECIMAL(m,n) | Almacena número decimales con o sin signo. m establece la cantidad de espacios antes del símbolo de separación de decimales y n la cantidad detrás de dicho símbolo. |  |
 | FLOAT(m,n) | Almacena números con coma flotante con o sin signo. m establece la cantidad de espacios antes del símbolo de separación de decimales y n la cantidad detrás de dicho símbolo. | Números con coma flotante desde -1,17549E-38 hasta 3,4028E+38 |
-| INTEGER(n) | Almacena números enteros con o sin signo. Con n puede establecer la longitud del número que se mostrará. | Números desde -2147483648 hasta + |
-| TEXT |  |  |
-| TIMESTAMP |  |  |
+| INTEGER(n) | Almacena números enteros con o sin signo. Con n puede establecer la longitud del número que se mostrará. | Números desde -2147483648 hasta +2147483647 |
+| TEXT | Almacena cadenas de caracteres de longitud variable de hasta 65.353 caracteres de longitud. | Caracteres cualesquiera |
+| TIMESTAMP | Genera un sello de tiempo y lo almacena. Éste contiene la ho |  |
 | VARCHAR(n) |  |  |
 | YEAR |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzAxOTQzMTUsNjQwNjc0ODc4XX0=
+eyJoaXN0b3J5IjpbLTk2OTIzNTE2Nyw2NDA2NzQ4NzhdfQ==
 -->

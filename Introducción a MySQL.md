@@ -143,7 +143,7 @@ NOTA: Es importante agregarle siempre un WHERE a DELETE para que sólo se elimin
 | CHAR(n) | Almacena cadenas de caracteres con una longitud máxima fija de 255 caracteres. Dentro de ella, n indica la longitud del campo, esto es, la cantidad de caracteres almacenables más 1. La cifra n siempre debe ser 1 más que la cantidad de caracteres que se van a almacenar. | Caracteres cualesquiera. |
 | DATE | Almacena indicaciones de fecha. | Valores de fecha desde 01.01.1000 hasta 31.12.9999 inclusive |
 | DECIMAL(m,n) | Almacena número decimales con o sin signo. m establece la cantidad de espacios antes del símbolo de separación de decimales y n la cantidad detrás de dicho símbolo. |  |
-| FLOAT(m,n) | Almacena  |  |
+| FLOAT(m,n) | Almacena números con coma flotante con o sin signo. m establece la cantidad de espacios antes del símbolo de separación de decimales y n la cantidad detrás de dicho símbolo. | Números con coma flotante desde -1,17549E-38 hasta 3,4028 |
 | INTEGER(n) |  |  |
 | TEXT |  |  |
 | TIMESTAMP |  |  |
@@ -151,5 +151,5 @@ NOTA: Es importante agregarle siempre un WHERE a DELETE para que sólo se elimin
 | YEAR |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzkwNjk3OTAsNjQwNjc0ODc4XX0=
+eyJoaXN0b3J5IjpbMTA1NTU5MTM2OCw2NDA2NzQ4NzhdfQ==
 -->

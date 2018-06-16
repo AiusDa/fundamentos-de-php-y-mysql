@@ -140,7 +140,7 @@ NOTA: Es importante agregarle siempre un WHERE a DELETE para que sólo se elimin
 
 | Tipo de dato | Descripción | Valores que toma |
 |--|--|--|
-| CHAR(n) | Almacena |  |
+| CHAR(n) | Almacena cadenas de caracteres con una longitud máxima fija de 255 caracteres. Dentro de ella, n indica la longitud del campo, esto es, la cantida |  |
 | DATE |  |  |
 | DECIMAL(m,n) |  |  |
 | FLOAT(m,n) |  |  |
@@ -151,5 +151,5 @@ NOTA: Es importante agregarle siempre un WHERE a DELETE para que sólo se elimin
 | YEAR |  |  |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzMzNTUxOTEsNjQwNjc0ODc4XX0=
+eyJoaXN0b3J5IjpbLTczODI5MTMyOCw2NDA2NzQ4NzhdfQ==
 -->
